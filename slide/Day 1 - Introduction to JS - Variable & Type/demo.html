@@ -1,0 +1,105 @@
+<h1 id="header"></h1>
+
+<script>
+  // comment one line
+  /*
+  Comment break line
+  */
+
+  // Declare variable
+  const
+  let
+  var
+  // Demo Variable function
+  let _apple;
+  let app_le12;
+  let $apple;
+  let apple;
+
+  // Name not accepted
+  Let, var, const, break, case, catch, class, continue, debugger, default, delete, do,
+  else, export, extends, finally, for, function, if, import, in, instanceof, new, return,
+  super, switch, this, throw, try, typeof, void, while, with, yield
+
+  // Is not correct, because numbers should not be the first character of a variable. 
+  let 12apple;
+
+  // Failed because const can't set variable again
+  const num = 1
+  num = 2
+
+  // Use let for set and change variable
+  let num = 1
+  num = "String"
+
+  // Concat string and number
+  let num1 = 1
+  let num2 = "String"
+  num1 + num2
+
+  // Practive var and let 
+  var a = 'Code'
+
+  const functionB = () => {
+    let b = "4Fun"
+  }
+
+  const functionMerge = () => {
+    const result = a + b
+  }
+
+  functionMerge()
+
+  // Type variable
+  // https://floating-point-gui.de/basic/
+
+  const number1 = 0.1
+  const number2 = 0.2
+  const number3 = 0.3
+
+  console.log(number1 + number2 === number3)
+
+    // Fixed floating point of javascript
+    (number1 + number2).toFixed(1) === number3.toFixed(1)
+
+  // typeof (NaN) => "number"
+  // null có bằng không không
+  console.log('' == false)
+  console.log('0' == false)
+  console.log([] == false)
+
+  // Do with object
+  let object1 = { name: "MrA" }
+  const object1 = { name: "MrA" }
+
+  object1.name = "MrB"
+
+  // Object.assign() được sử dụng để sao chép các giá trị của tất cả thuộc tính có thể liệt kê từ một hoặc 
+  // nhiều đối tượng nguồn đến một đối tượng đích.Nó sẽ trả về đối tượng đích đó.
+
+  const object = { name: "MrA" }
+  object.name = "MrB"
+  const newObject = object
+  const newObject = Object.assign({}, object)
+  newObject.name = "MrC"
+  console.log(object)
+  console.log(newObject)
+
+  // typeof
+  string
+  number
+  boolean
+  object
+  undefined
+  array(đây là một trường hợp đặc biệt của kiểu dữ liệu object)
+
+  // null và undefined khác nhau kiểu giá trị là object và undefined
+  const a = [1, 2, 3]
+  const b = [4, 5, 6]
+
+  a + b = ['1,2,34,5,6']
+
+  let a = [1, 2, 'hello', 4];
+  let a = { name: "Mary", age: 18, hair: "blonde" };
+
+</script>

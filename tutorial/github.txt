@@ -1,0 +1,26 @@
+// Link repository class
+https://github.com/kytek-hub/nordic-coder-FE200921
+
+// Download Link
+// Mac OS
+https://git-scm.com/download/mac
+https://gitforwindows.org/
+
+// Use terminal for upload to github
+// Clone any public or private projects
+// git clone /đường-dẫn-đến/repository/
+
+Example clone class project
+git clone https://github.com/kytek-hub/nordic-coder-FE200921.git
+
+// github will includes multiple branches and commits default is master
+
+// Use this for add file
+git add <tên-tập-tin> // if you want specified file
+git add * // if you want all file change
+
+// Use this for commit file with message
+git commit -m "Ghi chú Commit"
+
+// Upload commit to github
+git push origin master
